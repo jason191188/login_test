@@ -13,4 +13,4 @@ app.set('view engine', 'ejs');
 app.use('/', express.static(__dirname + '/public')); 
 app.use('/',home);//use : 미들웨어를 등록해주는 매서드
 
-module.exports = app;//test5
+module.exports = app;
