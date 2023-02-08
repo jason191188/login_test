@@ -1,0 +1,38 @@
+.flex-a {
+    background-color: #edd25a;
+    width: 300px;
+    height: 300px;
+}
+
+.flex-b {
+    background-color: #54b9a5;
+    width: 300px;
+    height: 300px;
+}
+
+.flex-c {
+    background-color: #04c4d9;
+    width: 300px;
+    height: 300px;
+}
+
+.flex {
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+        transition: 1s;
+    }
+
+    .flex {
+        width: 100%;
+        transition: 1s;
+    }
+
+}
